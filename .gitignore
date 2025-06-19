@@ -1,0 +1,40 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+
+# 模型文件
+*.pth
+*.pth.tar
+*.h5
+*.bin
+
+# 压缩和临时文件
+*.zip
+*.tar.gz
+*.npz
+*.npy
+
+# 虚拟环境
+venv/
+env/
+
+# 文本配置（视情况而定）
+*.ini
+*.txt
+
+# 数据和结果目录
+data/
+cells/
+predictions/
+picture/
+models/
+Models/
+test/
+
+# 特定文件
+digit.jpg
+warped_grid.png
+**/digit.jpg
+**/warped_grid.png
+
+# Jupyter Notebook
